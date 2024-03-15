@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Medicines, Allergies, and Intolerances Interoperability Standards",
+        "type": "Technical",
+        "description": "To update links to the Wales FHIR® Implementation Guide and introduce an implementation date for legacy systems and recently procured systems that are not yet operational.",
+        "status": "Active",
+        "data": "DSCN 2022 / 76",
+        "date": "2023-10-30"
+    },
+    {
+        "name": "All Wales Specialist Palliative Care Data Set",
+        "type": "Operational",
+        "description": "To introduce the All Wales Specialist Palliative Care Data Set.",
+        "status": "Active",
+        "data": "CDSCN 2010 / 01",
+        "date": "2010-08-04"
+    },
+    {
+        "name": "National Diagnostic Imaging Procedure Codes",
+        "type": "Operational",
+        "description": "Introduction of the National Procedure Codes for Diagnostic Imaging.",
+        "status": "Active",
+        "data": "CDSCN 2009 / 01",
+        "date": "2009-03-24"
+    },
+    {
+        "name": "Community Child Health 2000",
+        "type": "Aggregate",
+        "description": "New Dataset for the National Community child Health Database",
+        "status": "Active",
+        "data": "TBC",
+        "date": "2004-04-01"
+    },
+    {
+        "name": "NHS Wales Document Metadata Standard",
+        "type": "Operational",
+        "description": "The Document Metadata Data Standard is fundamental to the creation and maintenance of accurate document information. This will also help to enable effective search and retrieval of documents stored within repositories across NHS Wales.",
+        "status": "Retired",
+        "data": "DSCN 2022 / 04",
+        "date": "2022-01-24"
+    },
+    {
+        "name": "Critical Care Data Set",
+        "type": "Aggregate",
+        "description": "The Critical Care Data Set captures all intensive and high dependency care activity regardless of the patient’s area of residence.",
+        "status": "Active",
+        "data": "DDCN 2014 / 03",
+        "date": "2014-06-18"
+    },
+    {
+        "name": "Elective Admission List Data Set",
+        "type": "Aggregate",
+        "description": "Placeholder",
+        "status": "Retired",
+        "data": "TBC",
+        "date": "1999-04-01"
+    },
+    {
+        "name": "Single Cancer Pathway",
+        "type": "Aggregate",
+        "description": "All patients suspected of having a new primary cancer will be put on the Single Cancer Pathway regardless of their entry point onto the pathway. This includes patients who have had a previous cancer and are now suspected of having a different primary (a new) cancer",
+        "status": "Retired",
+        "data": "TBC",
+        "date": "2021-01-01"
+    },
+    {
+        "name": "SNOMED CT Maturity Matrix",
+        "type": "Operational",
+        "description": "Introduction of the SNOMED CT Maturity Matrix, which specifies levels of incorporation of SNOMED CT into a clinical electronic system.",
+        "status": "Active",
+        "data": "DSCN 2018 / 06",
+        "date": "2018-08-08"
+    }
+]

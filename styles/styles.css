@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, main, footer {
+    padding: 20px 0;
+}
+
+header {
+    background-color: rgb(0, 78, 140);
+    color: #fff;
+}
+
+.container img {
+    float: left;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    width: 250px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 10px;
+    color: #fff;
+}
+
+nav ul li a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+    text-decoration: none;
+}
+
+.search-box{
+    text-align: center;
+}
+
+.search-box input[type="text"] {
+    padding: 5px;
+    width: 400px;
+}
+
+main {
+    background-color: #fff;
+    flex: 1;
+}
+
+.filter-options, .results{
+    padding: 20px 0;
+}
+
+#pagination {
+    margin-top: 20px;
+}
+
+#pagination .page-item{
+    list-style: none;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#pagination .page-item:nth-child(1) {
+    margin-left: 0;
+}
+
+.item {
+    margin-top: 20px;
+}
+
+.item:nth-child(1){
+    margin-top: 0px;
+}
+
+.highlight {
+    padding: 10px;
+    color: #325083;
+    border: 2px solid #325083;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.highlight2 {
+    padding: 8px;
+    color: #892121;
+    border: 2px solid #892121;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.reference {
+    padding: 8px;
+    color: #F8CA4D;
+    border: 2px solid #F8CA4D;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.date {
+    padding: 8px;
+    color: #12A3C9;
+    /*border: 2px solid #12A3C9;
+    border-radius: 5px;*/
+    font-weight: bold;
+}
+
+h3 {
+    color: rgb(0, 78, 140);
+}
+
+.descriptor {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: auto;
+}
+
